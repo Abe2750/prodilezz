@@ -67,13 +67,21 @@ const StyledNav = styled.nav`
 
     a {
       color: var(--green);
-      width: 42px;
-      height: 42px;
+      width: 63px;
+      height: 63px;
 
       &:hover,
       &:focus {
         svg {
           fill: var(--green-tint);
+
+          -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+          -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+          transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+          transition: background-color 0.5s, transform 0.5s ease-out;
+          transition: background-color 0.5s, transform 0.5s ease-out,
+            -webkit-transform 0.5s ease-out;
         }
       }
 
