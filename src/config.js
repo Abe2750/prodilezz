@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.strava.com/athletes/60637349',
     },
   ],
 

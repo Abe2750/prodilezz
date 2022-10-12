@@ -72,7 +72,7 @@ const Hero = () => {
         >
           InfoSys
         </a>
-        . I graduated from UBC Vancouver in 2022 with a degree in computer science and physics. I’m
+        . I graduated from UBC Vancouver in 2022 with a degree in Computer Science and Physics. I’m
         focused on learning new skills and building human-centered products.
       </p>
     </>
