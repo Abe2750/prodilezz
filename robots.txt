@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://brittanychiang.com/profile/sitemap/sitemap-index.xml
-Host: https://brittanychiang.com
+Sitemap: https://abenezerchane.com/profile/sitemap/sitemap-index.xml
+Host: https://abenezerchane.com
