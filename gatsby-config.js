@@ -1,11 +1,11 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/profile',
+  // pathPrefix: '/profile',
   siteMetadata: {
     title: 'Abenezer Chane',
     description: 'Abenezer Chane is an associate  software engineer at InfoSys Canada .',
-    siteUrl: 'https://abenezerchane.com', // No trailing slash allowed!
+    siteUrl: 'https://www.abenezerchane.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },

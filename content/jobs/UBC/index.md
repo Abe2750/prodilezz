@@ -1,6 +1,6 @@
 ---
 date: '2018-01-01'
-title: 'Physics TA, AMS Tutor  •'
+title: 'Physics TA, AMS Tutor  '
 company: 'UBC'
 location: 'Vancouver BC, CA'
 range: 'January 2020 - December 2021'

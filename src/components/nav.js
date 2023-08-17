@@ -180,6 +180,8 @@ const Nav = ({ isHome }) => {
     </div>
   );
 
+  // const Logo = <p>hi</p>;
+
   const ResumeLink = (
     <a
       className="resume-button"
@@ -196,7 +198,7 @@ const Nav = ({ isHome }) => {
       <StyledNav>
         {prefersReducedMotion ? (
           <>
-            {Logo}
+            {/* {Logo} */}
 
             <StyledLinks>
               <ol>
