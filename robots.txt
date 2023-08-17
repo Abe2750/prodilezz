@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://abenezerchane.com/sitemap/sitemap-index.xml
-Host: https://abenezerchane.com
+Sitemap: https://www.abenezerchane.com/sitemap/sitemap-index.xml
+Host: https://www.abenezerchane.com
