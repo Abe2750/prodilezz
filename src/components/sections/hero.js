@@ -64,16 +64,17 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an associate Software Engineer at{' '}
+        {/* I'm an associate Software Engineer at{' '}
         <a
           href="https://www.infosys.com/powering-digital-canada.html"
           target="_blank"
           rel="noreferrer"
         >
           InfoSys
-        </a>
-        . I graduated from UBC Vancouver in 2022 with a degree in Computer Science and Physics. I’m
-        focused on learning new skills and building human-centered products.
+        </a> */}
+        I graduated from UBC Vancouver in 2022 with a degree in Computer Science and Physics. I’m
+        focused on learning new skills and building human-centered products. I have about 18 months
+        of professional software engineering experience and I am looking for new roles.
       </p>
     </>
   );
