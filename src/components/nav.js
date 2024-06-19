@@ -202,10 +202,17 @@ const Nav = ({ isHome }) => {
 
             <StyledLinks>
               <ol>
+                {' '}
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <li key={i}>
-                      <Link to={url}>{name}</Link>
+                      {name === 'Blog' ? (
+                        <Link to={url} target="_blank" rel="noopener noreferrer">
+                          {name}
+                        </Link>
+                      ) : (
+                        <Link to={url}>{name}</Link>
+                      )}
                     </li>
                   ))}
               </ol>
@@ -232,7 +239,13 @@ const Nav = ({ isHome }) => {
                     navLinks.map(({ url, name }, i) => (
                       <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
                         <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
-                          <Link to={url}>{name}</Link>
+                          {name === 'Blog' ? (
+                            <Link to={url} target="_blank" rel="noopener noreferrer">
+                              {name}
+                            </Link>
+                          ) : (
+                            <Link to={url}>{name}</Link>
+                          )}
                         </li>
                       </CSSTransition>
                     ))}

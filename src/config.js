@@ -16,8 +16,12 @@ module.exports = {
       url: 'https://www.linkedin.com/in/abenezer-chane/',
     },
     {
-      name: 'Codepen',
+      name: 'Strava',
       url: 'https://www.strava.com/athletes/60637349',
+    },
+    {
+      name: 'Medium',
+      url: 'https://medium.com/@abenezerchane',
     },
   ],
 
@@ -37,6 +41,10 @@ module.exports = {
     {
       name: 'Contact',
       url: '/#contact',
+    },
+    {
+      name: 'Blog',
+      url: 'https://medium.com/@abenezerchane',
     },
   ],
 
