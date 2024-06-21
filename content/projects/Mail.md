@@ -8,7 +8,6 @@ tech:
   - Django
   - JavaScript
   - BootStrap
-display: false
 ---
 
 An email client that makes API calls to send and receive emails. Users can archive/uncarchive emails and reply to emails.

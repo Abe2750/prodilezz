@@ -24,7 +24,7 @@ const Icon = ({ name }) => {
       return <IconAppStore />;
     case 'Bookmark':
       return <IconBookmark />;
-    case 'CodeStrava':
+    case 'Strava':
       return <IconStrava />;
     case 'External':
       return <IconExternal />;

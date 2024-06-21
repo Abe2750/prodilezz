@@ -7,6 +7,8 @@ github: 'https://github.com/Abe2750/commerce'
 cta: 'https://www.youtube.com/watch?v=VWEselD9qMo'
 tech:
   - Django
+  - JavaScript
+display: true
 ---
 
 An eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings,

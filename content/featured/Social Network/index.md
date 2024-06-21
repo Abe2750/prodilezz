@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Social Network'
 cover: './network.png'
 github: 'https://github.com/Abe2750/Network'
@@ -9,6 +9,7 @@ tech:
   - Boostrap
   - JavaScript
   - Python
+display: true
 ---
 
 A twitter-like social network website for making posts and following user. Users can make edits to posts, sort by following , check profiles and like/unlike among other things.

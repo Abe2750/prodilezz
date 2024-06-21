@@ -3,6 +3,8 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const events = require('events');
+events.EventEmitter.defaultMaxListeners = 20; // Increase the limit
 
 const path = require('path');
 const _ = require('lodash');
@@ -15,7 +17,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/content/posts/" } }
+        filter: {
+          fileAbsolutePath: { regex: "/content/posts/" }
+          frontmatter: { display: { eq: true } }
+        }
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
@@ -104,4 +109,16 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       },
     },
   });
+};
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      cover: File @fileByRelativePath
+    }
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `);
 };
