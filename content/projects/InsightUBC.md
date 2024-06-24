@@ -4,7 +4,7 @@ title: 'InsightUBC'
 github: ''
 external: ''
 tech:
-  - Java Script
+  - TypeScript
 company: 'UBC'
 showInProjects: true
 ---
