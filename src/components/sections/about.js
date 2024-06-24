@@ -149,6 +149,9 @@ const About = () => {
               </a>{' '}
               and intern at a <a href="https://kimetrica.com/"> research company. </a> During my
               university career I have worked as TA for several courses and worked as a peer mentor.
+              Recently, I have completed a full stack web development program at{' '}
+              <a href="https://www.brainstation.io/">BrainStation Vancouver </a> to further my
+              skills in web development.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
